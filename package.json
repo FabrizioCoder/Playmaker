@@ -1,0 +1,23 @@
+{
+  "name": "playmaker",
+  "module": "index.ts",
+  "version": "1.0.0",
+  "description": "Playmaker",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "start": "node dist",
+    "dev": "tsc -w"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.1.0",
+    "dotenv": "^16.4.5",
+    "lavalink-client": "github:tomato6966/lavalink-client",
+    "path": "^0.12.7",
+    "seyfert": "https://github.com/socram03/seyfert#install"
+  }
+}
